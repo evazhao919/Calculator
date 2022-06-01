@@ -1,8 +1,6 @@
 import java.util.List;
 import java.util.Scanner;
 
-import javax.management.MBeanNotificationInfo;
-
 public class App {
     private static final Scanner inputScanner = new Scanner(System.in);
 
