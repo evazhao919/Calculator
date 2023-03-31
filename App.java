@@ -8,12 +8,12 @@ public class App {
         Calculator calculator = new Calculator();
 
         while (true) {
-            String operation = menu();
+         String operation = menu();
             if (operation.equals("exit")) {
                 return;
             }
 
-            System.out.println();
+            System.out.println("");
 
             double result = 0;
             double num1 = getDouble("Enter the first number: ");
